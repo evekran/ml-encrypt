@@ -12,7 +12,7 @@ test('Encrypt document', () => {
   expect(decrypted).toStrictEqual(input)
 })
 
-test('Encrypt document', () => {
+test('Generate unlock key', () => {
   let key = ml.generateUnlockKey('salt', 'seed', 'passphrase')
 
   expect(key).toStrictEqual(
