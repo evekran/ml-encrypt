@@ -1,7 +1,7 @@
 {
-  "name": "@mindlog/ml-encrypt",
+  "name": "@evekran/ml-encrypt",
   "version": "0.1.0",
-  "description": "MindLog encryption core",
+  "description": "E2E Encryption utility",
   "main": "index.js",
   "directories": {
     "test": "tests"
